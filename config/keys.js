@@ -5,6 +5,9 @@ module.exports = {
     },
     mongodb:{
         dbURI:'mongodb://localhost:27017/oauth-test'
+    },
+    session:{
+        cookieKey: 'testingoauthwowcrazyz'
     }
 };
 
